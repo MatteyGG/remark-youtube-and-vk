@@ -1,7 +1,7 @@
 {
-  "name": "remark-youtube",
+  "name": "remark-video",
   "version": "1.3.2",
-  "description": "Remark plugin for youtube",
+  "description": "Remark plugin for youtube and vk",
   "type": "module",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -11,7 +11,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "repository": "pkolt/remark-youtube",
+  "repository": "MatteyGG/remark-youtube-and-vk",
   "scripts": {
     "test": "node --loader ts-node/esm --test --no-warnings ./src/*.test.ts",
     "build": "rimraf ./dist && tsc",
@@ -24,14 +24,17 @@
     "remark",
     "rehype",
     "youtube",
+    "video",
+    "vk",
+    "vk video",
     "iframe",
     "embedded"
   ],
   "bugs": {
-    "url": "https://github.com/pkolt/remark-youtube/issues",
-    "email": "pkoltyshev@gmail.com"
+    "url": "https://github.com/MatteyGG/remark-youtube-and-vk.git",
+    "email": "matgaranin@gmail.com"
   },
-  "author": "Pavel Koltyshev <pkoltyshev@gmail.com>",
+  "author": "Matt Garanin <matgaranin@gmail.com>",
   "files": [
     "README.md",
     "LICENSE.md",

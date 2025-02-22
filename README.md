@@ -1,6 +1,8 @@
-# remark-youtube ![](https://github.com/pkolt/remark-youtube/workflows/main/badge.svg)
+# Based on [remark-youtube](https://github.com/remarkjs/remark-youtube)
 
-Embed YouTube player in your Markdown.
+## remark-youtube-and-vk ![](https://github.com/MatteyGG/remark-youtube-and-vk/workflows/main/badge.svg)
+
+Embed Vk and YouTube player in your Markdown.
 
 👍 This package is ESM only!
 
@@ -69,3 +71,4 @@ export const Page: React.FC<PageProps> = ({ markdownContent = '' }) => {
 ## License
 
   [MIT](LICENSE.md)
+

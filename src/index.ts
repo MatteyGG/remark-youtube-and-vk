@@ -24,7 +24,7 @@ const remarkYoutubePlugin = (options?: Options) => (tree: Root) => {
         if (match && match[1]) {
           videoId = match[1];
           videoUrl = url;
-        } else if (vkMatch && vkMatch[1]) {
+        } else if (vkMatch) {
           videoId = vkMatch[1];
           videoUrl = url;
         }

@@ -8,6 +8,11 @@ Embed Vk and YouTube player in your Markdown.
 
 ❌ CommonJS modules not supported!
 
+Для использования в редакторе просто вставь ссылку на видео.
+Паттерны ссылок: 
+YT /^https:\/\/(?:youtu\.be\/|www\.youtube\.com\/watch\?v=)([0-9A-Za-z_-]+)$/;
+VK /^https:\/\/(?:vk\.com|vkvideo\.ru)\/video_ext\.php\?.*oid=.*&id=.*&hash=.*/;
+
 ## Install
 
 1. Install plugin to your site:
